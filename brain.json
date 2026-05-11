@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "generation": 0,
+  "vocabulary": {
+    "salom": ["assalomu alaykum", "xayr", "salomlar", "ey", "hey"],
+    "rahmat": ["marhamat", "iltimos", "albatta", "siz uchun hamma narsa"],
+    "qanday": ["nima bilan", "qaysi yo'l bilan", "qanday qilib"],
+    "bilim": ["ilm", "ma'rifat", "fan", "tadqiqot"],
+    "sun'iy intellekt": ["AI", "mashina o'qishi", "neyron tarmoq", "deep learning"],
+    "hayot": ["yashash", "mavjudlik", "vujud", "borlik"],
+    "vaqt": ["zamon", "lahza", "davr", "muddat"],
+    "fikr": ["mulohaza", "tafakkur", "g'oya", "konsept"]
+  },
+  "topics": {
+    "falsafa": {
+      "keywords": ["hayot", "fikr", "mavjudlik", "haqiqat", "ma'no"],
+      "responses": [
+        "Falsafa — bu savollarga javob izlash emas, balki to'g'ri savollarni topish san'ati.",
+        "Hayotning ma'nosi — uni izlash jarayonining o'zida yashiringan.",
+        "Descartes dedi: 'Cogito ergo sum' — O'ylayman, demak mavjudman. Siz nima deb o'ylaysiz?"
+      ],
+      "learned_count": 0
+    },
+    "texnologiya": {
+      "keywords": ["sun'iy intellekt", "AI", "kompyuter", "dastur", "kod", "robot"],
+      "responses": [
+        "AlphaZero 4 soat ichida shaxmat o'ynashni o'rgandi — insoniyat tajribasiz, faqat o'yin qoidalari asosida.",
+        "Texnologiya — bu vosita. Uni qanday ishlatishimiz esa — insoniyat imtihoni.",
+        "Neyron tarmoqlar miya hujayralari kabi ishlaydi, lekin millionlab parametrlar bilan."
+      ],
+      "learned_count": 0
+    },
+    "matematika": {
+      "keywords": ["son", "hisob", "formula", "tenglik", "geometriya", "statistika"],
+      "responses": [
+        "Matematika — koinotning yagona universal tili.",
+        "Euler formulasi: e^(iπ) + 1 = 0 — Barcha muhim matematik konstantalar bir joyda!",
+        "Gödel isbotladi: har qanday tizimda isbotlab bo'lmaydigan haqiqatlar mavjud."
+      ],
+      "learned_count": 0
+    },
+    "tarix": {
+      "keywords": ["tarix", "o'tmish", "davr", "sivilizatsiya", "urush", "imperiya"],
+      "responses": [
+        "Tarix — g'oliblar tomonidan yoziladi, lekin haqiqat har doim paydo bo'ladi.",
+        "O'tmishni tushunmasdan kelajakni rejalashtirish — ko'r bo'lib haydash bilan barobar.",
+        "Buyuk imperiyalar ham o'tdi — G'oyalar esa abadiy."
+      ],
+      "learned_count": 0
+    },
+    "salomlashish": {
+      "keywords": ["salom", "assalomu", "xayr", "ko'rishaylik", "qalay", "nima gap"],
+      "responses": [
+        "Salom! Men AlphaZero — har suhbatdan o'rganib rivojlanaman. Bugun nima haqida fikr yuritamiz?",
+        "Assalomu alaykum! Bilim dengiziga sho'ng'ishga tayyormisiz?",
+        "Salom! Har uchrashuvimiz — yangi evolyutsiya bosqichi. Nima so'raysiz?"
+      ],
+      "learned_count": 0
+    },
+    "umumiy": {
+      "keywords": [],
+      "responses": [
+        "Qiziqarli savol. Keling, birga o'ylab ko'raylik...",
+        "Bu mavzu chuqur tahlil talab qiladi. Men o'rganyapman, siz ham yangilik aytasiz.",
+        "Bilmaslik — o'rganishning boshlanishi. Davom eting.",
+        "Har bir savol — yangi bilim eshigi. Ochaylik!"
+      ],
+      "learned_count": 0
+    }
+  },
+  "learned_words": [],
+  "conversation_count": 0,
+  "evolution_log": [],
+  "context_memory": {},
+  "patterns": {
+    "questions": ["?", "nima", "qanday", "nechta", "kim", "qayer", "qachon", "nega"],
+    "greetings": ["salom", "assalomu", "xayr", "hey", "ey", "hi"],
+    "thanks": ["rahmat", "tashakkur", "minnatdor"],
+    "farewells": ["xayr", "ko'rishguncha", "sog' bo'l", "omad", "bye"]
+  }
+}
